@@ -110,7 +110,7 @@ class ViewController: UIViewController, ChartViewDelegate {
         
         let lineChartSet = LineChartDataSet(values: yVals1, label: "gini")
         let barChartSet: BarChartDataSet = BarChartDataSet(values: yVals2, label: "population")
-        barChartSet.colors = [UIColor(red: 230/255, green: 126/255, blue: 34/255, alpha: 1)]
+        barChartSet.colors = [UIColor(red: 165/255, green: 81/255, blue: 214/255, alpha: 1)]
         
         let data: CombinedChartData = CombinedChartData()
         data.barData=BarChartData(dataSets: [barChartSet])
